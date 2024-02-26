@@ -1,0 +1,158 @@
+/* Modern CSS Page Template */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Use a custom font */
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Add some spacing and alignment */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style the logo */
+  .logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2196f3;
+  }
+  
+  /* Style the navigation menu */
+  .nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .nav a:hover {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  main {
+    margin-top: 40px;
+  }
+  
+  /* Style the page title */
+  h1 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the headings */
+  h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the lists */
+  ul, ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style the form */
+  form {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Style the buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Style the images */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
