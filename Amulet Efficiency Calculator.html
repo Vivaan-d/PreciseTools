@@ -27,7 +27,11 @@
     <input id="colorpollen">
   <h3>Insert your current NORMAL pollen ("Pollen")</h3>
     <input id="pollen">
-    <button></button>
+  <h3>Insert your amulet to replace's color pollen (Red/Blue/White)</h3>
+      <input id="acolorpollen">
+  <h3>Insert your amulet to replace's NORMAL pollen ("Pollen")</h3>
+      <input id="apollen">
+    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value)">Calculate</button>
 
     <p>This is how much more efficient Pollen is than your specified Color Pollen: <p id="answer">[Enter the fields</p>
 </body>
