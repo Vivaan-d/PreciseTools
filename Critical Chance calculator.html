@@ -53,7 +53,13 @@
     <p>You get <span id="all">[Enter the fields above]</span> of your pollen from your current criticals and supercrits (combined)</p>
     <p>Benefit from Crits only: <span id="co">[Enter the fields above]</span>. Benefits from SuperCrits only<span id="sco">[Enter the fields above]</span></p>
   </div>
-  <script src="jslib.js" type="text/javascript"></script>
+  <script>
+    // why is external file not working
+    var $={}
+    $.qs=(e)=>{return document.querySelector(e)}
+    $.va=(e)=>{return document.querySelector(e).va}
+    $.st=(e,i)=>{return document.querySelector(e).innerHTML = i}
+  </script>
   <script>
   function calc() {
   var cc=$.va("critchance");
