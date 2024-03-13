@@ -39,7 +39,7 @@
     <input id="capacity">
   <h3>Insert your capacity multiplier here</h3>
     <input id="capacitymult">
-    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('capacity').value*100) / document.getElementById('capacitymult').value; /*              capacity mult                */document.getElementById('capacitymultx').innerHTML = document.getElementById('capacitymult').value*100 + 'x' ">Calculate</button>
+    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('capacity').value*100) / document.getElementById('capacitymult').value; /*              capacity mult                */document.getElementById('capacitymultx').innerHTML = document.getElementById('capacitymult').value/100 + 'x' ">Calculate</button>
 
     <p>Your base capacity is: <span id="answer">[Enter the fields above]</span></p>
     <p>This is the capacity before multipliers, and also the multipliers are <span id="capacitymultx">[Enter the fields above]</span></p>
