@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precise Tools</title>
+    <title>Precise Tools: AEC</title>
     <link rel="stylesheet" href="yes.css">
     <link rel="icon" type="image/x-icon" href="precisetools.png">
     <!-- Facebook Meta Tags -->
-    <meta property="og:title" content="Precise Tools">
+    <meta property="og:title" content="Precise Tools: Amulet Efficiency Calculator">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Explore mathematical tools for Bee Swarm Simulator">
+    <meta property="og:description" content="Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">
     <meta property="og:image" content="https://precisetools.netlify.app/precisetools"> <!-- Replace with your actual image URL -->
     <!-- Twitter Meta Tags (similar to Open Graph) -->
-    <meta name="twitter:title" content="Precise Tools">
-    <meta name="twitter:description" content="Precise Mathematical tools for Bee Swarm Simulator">
+    <meta name="twitter:title" content="Precise Tools: Amulet Efficiency Calculator">
+    <meta name="twitter:description" content="Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">
     <meta name="twitter:image" content="https://precisetools.netlify.app/precisetools"> <!-- Replace with your actual image URL -->
     <meta name="twitter:card" content="summary_large_image">
     <!-- Other necessary meta tags -->
-    <meta name="description" content="Precise Tools: Mathematical utilities for Bee Swarm Simulator">
+    <meta name="description" content="Precise Tools: Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">
 </head>
 <body>
 <div class="container">
@@ -28,7 +28,7 @@
       <ul class="nav">
         <li><a href="." data-hover="Homepage of Precise Tools">Home</a></li>
         <li><a href="Amulet Efficiency Calculator" data-hover="Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">AmuletEC (VERY USEFUL)</a></li>
-        <li><a href="#" data-hover="Find out your base capacity before multipliers">Base Capacity Calculator</a></li>
+        <li><a href="Base Capacity Calculator" data-hover="Find out your base capacity before multipliers">Base Capacity Calculator</a></li>
      <!--   <li><a href="#" data-hover="">Contact</a></li>-->
       </ul>
     </nav>
@@ -43,7 +43,7 @@
       <input id="acolorpollen">
   <h3>Insert your CURRENT amulet to replace's NORMAL pollen ("Pollen")</h3>
       <input id="apollen">
-    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value) + 'x'; /*         second box          */ document.getElementById('answerexpl').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value)">Calculate</button>
+    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value) + 'x'; /*         second box          */ document.getElementById('answerexpl').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value) + '%' ">Calculate</button>
 
     <p>This is how much more efficient Pollen is than your specified Color Pollen: <span id="answer">[Enter the fields above]</span></p>
     <p>To explain it, adding a single % of the "Pollen" multiplier is equal to  <span id="answerexpl">[Enter the fields above]</span> of your Color Pollen multiplier. This tool is used to help you prioritize the Pollen while sacrificing the Color Pollen (because you cant have the best rng on earth, can you)</p>
