@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precise Tools: BCC</title>
+    <title>Precise Tools: CCC</title>
     <link rel="stylesheet" href="yes.css">
     <link rel="icon" type="image/x-icon" href="precisetools.png">
     <!-- Facebook Meta Tags -->
@@ -47,11 +47,23 @@
   <h3>Insert the % of crit chance you want to see how much pollen it increases</h3>
   <input id="critpercentin" value="1">
   Remove any crit/supercrit chance or power from amulets if you want to switch a amulet
-  <h3>Insert your capacity multiplier here</h3>
-    <input id="capacitymult">
-    <button onclick="document.getElementById('opi').innerHTML  /*overall pollen increase*/ = (document.getElementById('critpower').value/document.getElementById('critchance').value) + (document.getElementById('supercritpower').value/(document.getElementById('critchance').value/document.getElementById('supercritchance').value)); /*critpercent*/document.getElementById('critpercent').innerHTML = document.getElementById('critpercentin').value;/*supercrit only*/document.getElementById('sco').innerHTML = (document.getElementById('supercritpower').value/(document.getElementById('critchance').value/document.getElementById('supercritchance').value));/*crit only*/document.getElementById('co').innerHTML = (document.getElementById('critpower').value/document.getElementById('critchance').value)">Calculate</button>
+    <button onclick="">Calculate</button>
 
-    <p>Getting <span id="critpercent">[Enter the fields above]</span>% critical chance gives you <span id="opi">[Enter the fields above]</span> more pollen overall (DIRECTLY INCREASES POLLEN, NO STACKING)</p>
+    <p>Getting <span id="critpercent">[Enter the fields above]</span>% critical chance gives you <span id="opi">[Enter the fields above]</span>% more pollen overall (DIRECTLY INCREASES POLLEN, NO STACKING)</p>
+    <p><span id="co"></span><span id="sco"></span></p>
   </div>
+  <script src="jslib.js"></script>
+  <script>
+  function calc() {
+  var cc=$.va("critchance");
+  var cp=$.va("critpower");
+  var sc=$.va("supercritchance");
+  var sp=$.va("supercritpower");
+  var cpi=$.va("critpercentin");
+  
+  }
+  
+  
+  </script>
 </body>
 </html>
