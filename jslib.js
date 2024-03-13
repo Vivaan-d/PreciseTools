@@ -1,4 +1,5 @@
 var $={}
 $.qs=(e)=>{return document.querySelector(e)}
-$.va=(e)=>{return document.querySelector(e).value}
-$.st=(e,i)=>{return document.querySelector(e).innerHTML = i}
+$.id=(e)=>{return document.getElementById(e)}
+$.va=(e)=>{return document.getElementById(e).value}
+$.st=(e,i)=>{return document.getElementById(e).innerHTML = i}
