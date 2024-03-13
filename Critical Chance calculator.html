@@ -47,10 +47,11 @@
   <h3>Insert the % of crit chance you want to see how much pollen it increases</h3>
   <input id="critpercentin" value="1">
   Remove any crit/supercrit chance or power from amulets if you want to switch a amulet
-    <button onclick="">Calculate</button>
+    <button onclick="calc()">Calculate</button>
 
     <p>Getting <span id="critpercent">[Enter the fields above]</span>% critical chance gives you <span id="opi">[Enter the fields above]</span>% more pollen overall (DIRECTLY INCREASES POLLEN, NO STACKING)</p>
-    <p><span id="co"></span><span id="sco"></span></p>
+    <p>You get <span id="all">[Enter the fields above]</span> of your pollen from your current criticals and supercrits (combined)</p>
+    <p>Benefit from Crits only: <span id="co">[Enter the fields above]</span>. Benefits from SuperCrits only<span id="sco">[Enter the fields above]</span></p>
   </div>
   <script src="jslib.js"></script>
   <script>
@@ -60,7 +61,16 @@
   var sc=$.va("supercritchance");
   var sp=$.va("supercritpower");
   var cpi=$.va("critpercentin");
-  
+
+  var fc =cp/cc
+  var fs =sp/cc/sc
+  var fcs =(cp/(cc+1))-fc-fs
+  var fss =(sp/(cc+1)/sc)-fc-fs
+  $.st("all",fc+fs);
+  $.st("co",fc)
+  $.st("sco",fs)
+  $.st("critpercent",cpi)
+  $.st("opi",fcs+fss)
   }
   
   
