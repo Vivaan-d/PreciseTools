@@ -26,16 +26,19 @@
     <input id="colorpollen">
   <h3>Insert your current NORMAL pollen ("Pollen")</h3>
     <input id="pollen">
-  <h3>Insert your amulet to replace's color pollen (Red/Blue/White)</h3>
+  <h3>Insert your CURRENT amulet to replace's color pollen (Red/Blue/White)</h3>
       <input id="acolorpollen">
-  <h3>Insert your amulet to replace's NORMAL pollen ("Pollen")</h3>
+  <h3>Insert your CURRENT amulet to replace's NORMAL pollen ("Pollen")</h3>
       <input id="apollen">
-    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value)">Calculate</button>
+    <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value) + 'x'; /*         second box          */ document.getElementById('answerexpl').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value)">Calculate</button>
 
     <p>This is how much more efficient Pollen is than your specified Color Pollen: <span id="answer">[Enter the fields above]</span></p>
-
+    <p>To explain it, adding a single % of the "Pollen" multiplier is equal to  <span id="answerexpl">[Enter the fields above]</span> of your Color Pollen multiplier. This tool is used to help you prioritize the Pollen while sacrificing the Color Pollen (because you cant have the best rng on earth, can you)</p>
+    <p>The amulet you enter above is the amulet with low or no "Pollen" multiplier and to show you how much more useful the pollen multiplier is for your color than your color's pollen (And other colors for a fact)</p>
+<br><br>
 
     <p>(Note that you must do it fast and outside of grinding to avoid any changes, but if theres nectar's, a 1% or so decrease will not mean much, but will be accurate if taken at same time)</p>
+    <p>(Amulet color pollen is optional, if u don't want to use it just enter 0)</p>
     </main>
   </div>
 </body>
