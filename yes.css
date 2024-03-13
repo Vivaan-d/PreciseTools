@@ -35,6 +35,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #ce2c2c;
+    text-wrap: nowrap;
   }
   
   /* Style the navigation menu */
