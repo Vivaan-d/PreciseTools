@@ -32,8 +32,6 @@
   
   /* Style the logo */
   .logo {
-    position:relative;
-    left:0;
     font-weight: 700;
     font-size: 24px;
     color: #ce2c2c;
