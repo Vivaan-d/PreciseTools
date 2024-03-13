@@ -22,9 +22,6 @@
   </header>
     <main>
         
-    </main>
-  </div>
-  <h2>Wait </h2>
   <h3>Insert your current color pollen (Red/Blue/White)</h3>
     <input id="colorpollen">
   <h3>Insert your current NORMAL pollen ("Pollen")</h3>
@@ -35,6 +32,11 @@
       <input id="apollen">
     <button onclick="document.getElementById('answer').innerHTML = (document.getElementById('colorpollen').value - document.getElementById('acolorpollen').value) / (document.getElementById('pollen').value - document.getElementById('apollen').value)">Calculate</button>
 
-    <p>This is how much more efficient Pollen is than your specified Color Pollen: <p id="answer">[Enter the fields</p>
+    <p>This is how much more efficient Pollen is than your specified Color Pollen: <span id="answer">[Enter the fields above]</span></p>
+
+
+    <p>(Note that you must do it fast and outside of grinding to avoid any changes, but if theres nectar's, a 1% or so decrease will not mean much, but will be accurate if taken at same time)</p>
+    </main>
+  </div>
 </body>
 </html>
