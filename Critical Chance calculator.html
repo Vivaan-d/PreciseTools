@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precise Tools: BCC</title>
+    <link rel="stylesheet" href="yes.css">
+    <link rel="icon" type="image/x-icon" href="precisetools.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Precise Tools: Critical Chance Calculator">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Critical Chance Calculator: Find out how much Crit Chance and SuperCrit Chance helps you in pollen">
+    <meta property="og:image" content="https://precisetools.netlify.app/precisetools.png"> <!-- Replace with your actual image URL -->
+    <!-- Twitter Meta Tags (similar to Open Graph) -->
+    <meta name="twitter:title" content="Precise Tools">
+    <meta name="twitter:description" content="Critical Chance Calculator: Find out how much Crit Chance and SuperCrit Chance helps you in pollen">
+    <meta name="twitter:image" content="https://precisetools.netlify.app/precisetools.png"> <!-- Replace with your actual image URL -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Other necessary meta tags -->
+    <meta name="description" content="Precise Tools: Critical Chance Calculator; Find out how much Crit Chance and SuperCrit Chance helps you in pollen">
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">
+    <img src="precisetools.png" height="34" width="34" style="margin-right: 20px;margin-bottom: -7px;">Precise Tools</div>
+    <nav>
+      <ul class="nav">
+        <li><a href="." data-hover="Homepage of Precise Tools">Home</a></li>
+        <li><a href="Amulet Efficiency Calculator" data-hover="Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">AmuletEC (VERY USEFUL)</a></li>
+        <li><a href="Base Capacity Calculator" data-hover="Find out your base capacity before multipliers">Base Capacity Calculator</a></li>
+        <li><a href="Critical Chance calculator" data-hover="Find out how much Crit Chance and SuperCrit Chance helps you in pollen">Critical Chance Calculator</a></li>
+     <!--   <li><a href="#" data-hover="">Contact</a></li>-->
+      </ul>
+    </nav>
+  </header>
+    <main>
+        
+  <h3>Insert your crit chance here</h3>
+  <input id="critchance">
+  <h3>Insert your crit power here</h3>
+    <input id="critpower">
+  <h3>Insert your supercrit chance here</h3>
+  <input id="supercritchance">
+  <h3>Insert your supercrit power here</h3>
+    <input id="supercritpower">
+  <h3>Insert the % of crit chance you want to see how much pollen it increases</h3>
+  <input id="critpercentin" value="1">
+  Remove any crit/supercrit chance or power from amulets if you want to switch a amulet
+  <h3>Insert your capacity multiplier here</h3>
+    <input id="capacitymult">
+    <button onclick="document.getElementById('opi').innerHTML  /*overall pollen increase*/ = (document.getElementById('critpower').value/document.getElementById('critchance').value) + (document.getElementById('supercritpower').value/(document.getElementById('critchance').value/document.getElementById('supercritchance').value)); /*critpercent*/document.getElementById('critpercent').innerHTML = document.getElementById('critpercentin').value;/*supercrit only*/document.getElementById('sco').innerHTML = (document.getElementById('supercritpower').value/(document.getElementById('critchance').value/document.getElementById('supercritchance').value));/*crit only*/document.getElementById('co').innerHTML = (document.getElementById('critpower').value/document.getElementById('critchance').value)">Calculate</button>
+
+    <p>Getting <span id="critpercent">[Enter the fields above]</span>% critical chance gives you <span id="opi">[Enter the fields above]</span> more pollen overall (DIRECTLY INCREASES POLLEN, NO STACKING)</p>
+  </div>
+</body>
+</html>
