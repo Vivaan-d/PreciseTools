@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precise Tools: PTM</title>
+    <link rel="stylesheet" href="yes.css">
+    <link rel="icon" type="image/x-icon" href="precisetools.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Precise Tools: Percent to Multiplication">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Percent to Multiplication: Convert percentage into numbers">
+    <meta property="og:image" content="https://precisetools.netlify.app/precisetools.png"> <!-- Replace with your actual image URL -->
+    <!-- Twitter Meta Tags (similar to Open Graph) -->
+    <meta name="twitter:title" content="Precise Tools">
+    <meta name="twitter:description" content="Percent to Multiplication: Convert percentage into numbers">
+    <meta name="twitter:image" content="https://precisetools.netlify.app/precisetools.png"> <!-- Replace with your actual image URL -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Other necessary meta tags -->
+    <meta name="description" content="Percent to Multiplication; Convert percentage into numbers">
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">
+    <img src="precisetools.png" height="34" width="34" style="margin-right: 20px;margin-bottom: -7px;">Precise Tools</div>
+    <nav>
+      <ul class="nav">
+        <li><a href="." data-hover="Homepage of Precise Tools">Home</a></li>
+        <li><a href="Amulet Efficiency Calculator" data-hover="Amulet Efficiency Calculator; Calculate color values against base values for better efficiency">AmuletEC (VERY USEFUL)</a></li>
+        <li><a href="Base Capacity Calculator" data-hover="Find out your base capacity before multipliers">Base Capacity Calculator</a></li>
+        <li><a href="Critical Chance calculator" data-hover="Find out how much Crit Chance and SuperCrit Chance helps you in pollen">Critical Chance Calculator</a></li>
+     <!--   <li><a href="#" data-hover="">Contact</a></li>-->
+      </ul>
+    </nav>
+  </header>
+    <main>
+        
+  <h3>Insert your percentage here, like from BSS settings menu</h3>
+  <input id="percentage">
+  <h3>Insert the number that percentage is of (Leave as 100 if you don't have any)</h3>
+  <input id="d">
+    <button onclick="calc()">Calculate</button>
+    <p>Answer <span id="multiplication">[Enter the fields above]</span></p>
+  </div>
+  <script src="jslib.js"></script>
+  <script>
+  function calc() {
+    var p=$.n($.va("percentage"))
+    var d=$.n($.va("d"))
+    $.st("multiplication", (d/p)*100 + "x")
+  }
+  // end
+  // expected accuracy 100%
+  // estimates tell me it's correct
+  
+  </script>
+</body>
+</html>
