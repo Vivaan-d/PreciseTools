@@ -61,9 +61,13 @@
   var sc=$.n($.va("supercritchance"));
   var sp=$.n($.va("supercritpower"));
   var cpi=$.n($.va("critpercentin"));
-
-  var fc =cp/cc
-  var fs =sp/cc/sc
+  console.log(cc)
+  console.log(cp)
+  console.log(sc)
+  console.log(sp)
+  console.log(cpi)
+  var fc =$.pd(cc,cp)
+  var fs =$.pd(cc,$.pd(sc,(sp*cp)))
   var fcs =(cp/(cc+1))-fc-fs
   var fss =(sp/(cc+1)/sc)-fc-fs
   $.st("all",fc+fs);
