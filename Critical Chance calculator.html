@@ -67,9 +67,9 @@
   console.log(sp)
   console.log(cpi)
   var fc=$.pd(cc,cp)
-  var fs=$.pd(cc,$.pd(sc,(sp*cp)))
+  var fs=$.pd(cc,$.pd(sc,((sp/100)*cp)))
   var fcs=$.pd((cc+1),cp)-fc
-  var fss=$.pd((cc+1),$.pd(sc,(sp*cp)))-fs
+  var fss=$.pd((cc+1),$.pd(sc,((sp/100)*cp)))-fs
   $.st("all",fc+fs);
   $.st("co",fc)
   $.st("sco",fs)
