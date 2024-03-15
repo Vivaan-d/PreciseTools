@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://precisetools.netlify.app/</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+   <url>
+
+      <loc>http://precisetools.netlify.app/PercentToMultiplication</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://precisetools.netlify.app/Amulet%20Efficiency%20Calculator</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://precisetools.netlify.app/Base%20Capacity%20Calculator</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://precisetools.netlify.app/Critical%20Chance%20calculator</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+</urlset> 
