@@ -1,7 +1,4 @@
 <header>
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <div class="logo"><a href="." data-hover="Homepage of Precise Tools"><img src="precisetools.png" height="34" width="34"
     style="margin-right: 20px;margin-bottom: -7px;">Precise Tools</a></div>
 <nav>
@@ -19,56 +16,7 @@
     <li><a href="PercentToMultiplication.html " data-hover="Convert percentage into numbers">Percent to
         Multiplication</a></li>
   </ul>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+
   </div>
 </nav>
 </header>
-<style>
-  /* Style the navigation menu */
-.header {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.header #nav {
-  display: none;
-}
-
-/* Style the hamburger menu */
-.nav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
-
-<script>
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-</script>
