@@ -3,10 +3,11 @@
     "start_url": "https://PreciseTools.netlify.app",
     "icons": [
       {
-        "src": "icons/precisetools.png",
+        "src": "precisetools.png",
         "type": "image/png",
         "sizes": "512x512"
       }
+
     ],
     "display": "standalone"
   }
