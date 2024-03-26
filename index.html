@@ -25,7 +25,7 @@
 <div class="container">
   <header>
     <div class="logo">
-    <img src="precisetools.png" height="34" width="34" style="margin-right: 20px;margin-bottom: -7px;">Precise Tools</div>
+    <img src="icons/precisetools.png" height="34" width="34" style="margin-right: 20px;margin-bottom: -7px;">Precise Tools</div>
     <nav>
       <ul class="nav">
         your internet is prob slow
@@ -37,8 +37,7 @@
       <h1>Precise Tools</h1>
       <p>Precise Tools is a Bee Swarm Simulator Calculator/Resource for values that may be very useful and might not be found anywhere else! There are a lot of simple calculations and complex ones too (If I come by any.) PreciseTools is made by Viv (@vivaanmc) on Discord, @Vivaanplay1231 (VivaanRX) on Roblox, and Vivaan-d on github. Some adjustments(Brand Logos, Meta Tag updates) were made by Tahjae (tahj_s) on discord, tahj-s on github, and 3Dultra12345 on roblox. You may DM us on Discord for any suggestions(Tahjae does not always have DMs on).</p>
       <h2>Get the app</h2>
-      <p>Get The Precise Tools App here</p>
-      <button id="install" hidden>Install</button>
+      <p>Get The Precise Tools App: <button id="install" hidden>Install Now</button></p>
       <h2>Discord Server</h2>
       <p>Vivaan has a Discord server called "Communist Bee Community" where you can join <a href=https://discord.gg/hdAZuZXgq8>Here (https://discord.gg/hdAZuZXgq8)</a></p>
       <h2>List of Calculators/Resources</h2>
@@ -121,8 +120,21 @@ window.addEventListener("beforeinstallprompt", (event) => {
   installButton.removeAttribute("hidden");
 });
 
-  </script>
-  
-    
+// main.js
+installButton.addEventListener("click", async () => {
+  if (!installPrompt) {
+    return;
+  }
+  const result = await installPrompt.prompt();
+  console.log(`Install prompt was: ${result.outcome}`);
+  disableInAppInstallPrompt();
+});
+
+function disableInAppInstallPrompt() {
+  installPrompt = null;
+  installButton.setAttribute("hidden", "");
+}
+
+  </script> 
 </body>
 </html>
