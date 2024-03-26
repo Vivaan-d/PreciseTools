@@ -1,0 +1,10 @@
+{
+    "name": "PreciseTools",
+    "icons": [
+      {
+        "src": "precisetools2.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
