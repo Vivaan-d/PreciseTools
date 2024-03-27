@@ -18,7 +18,7 @@
 
 <div align="center">
   
-# The Precise Tools App
+# The Precise Tools App (made by Tahjae)
 
 [![PWA Shields](https://www.pwa-shields.com/1.0.0/series/classic/white/purple.svg)](https://precisetools.netlify.app/)
 [![PWA Shields](https://www.pwa-shields.com/1.0.0/series/install/purple.svg)](https://precisetools.netlify.app/)
@@ -35,5 +35,5 @@
 Precise tools is a BSS Calculator Useful calculators for Bee Swarm Simulator. made by Vivaan-d and Tahj-S.
 
 # Contact us
-- You can contact Viv using @vivaanmc on Discord and @Vivaanplay1231 on Roblox.
-- For ways to contact Tahj-S. See his ReadMe [here](https://github.com/Tahj-S/Tahj-S)
+- You can contact Vivaan at: @vivaanmc on Discord and @Vivaanplay1231 on Roblox.
+- For ways to contact Tahj-S, See his README [here](https://github.com/Tahj-S/Tahj-S)
