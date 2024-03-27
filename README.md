@@ -5,6 +5,7 @@
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Vivaan-d/PreciseTools?logo=github)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/Vivaan-d/PreciseTools?style=flat&logo=github&color=%23222d5a)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Vivaan-d/precisetools)
+
 </div>
 
 <!-- Move to wiki-->
