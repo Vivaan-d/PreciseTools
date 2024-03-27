@@ -1,9 +1,11 @@
+<div align="center">
 <img src="https://tahj-s.github.io/Precise-Tools-Pack/Precise%20Tools%20logo%20Transparent.png" width="200">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Vivaan-d/PreciseTools?style=flat&logo=github&logoColor=gray&labelColor=%23FDDC5C&color=gray)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Vivaan-d/PreciseTools?logo=github)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/Vivaan-d/PreciseTools?style=flat&logo=github&color=%23222d5a)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Vivaan-d/precisetools)
+</div>
 
 <!-- Move to wiki-->
 ## file info (moving to wiki)
