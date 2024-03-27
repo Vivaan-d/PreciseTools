@@ -14,7 +14,7 @@
 
 <img src="https://tahj-s.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%201.png" width="1000">
 
-- All Tools are located on the Taskbar. If the Taskbar has not fully loaded. then check your internet connection and make sure you have good internet speed
+- All Tools are located on the Navigation Bar. If the navigation bar has not fully loaded, refresh the page. On websites by Tahjae, the navigation bar will NOT work.
 
 <div align="center">
   
@@ -32,8 +32,12 @@
 <img src="https://tahj-s.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%202.png">
 
 # Credits
-Precise tools is a BSS Calculator Useful calculators for Bee Swarm Simulator. made by Vivaan-d and Tahj-S.
+Made by VivaanMC, Edited by Tahj-S/Tahjae
 
 # Contact us
 - You can contact Vivaan at: @vivaanmc on Discord and @Vivaanplay1231 on Roblox.
 - For ways to contact Tahj-S, See his README [here](https://github.com/Tahj-S/Tahj-S)
+
+
+# important
+- make sure to share share share
