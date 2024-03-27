@@ -8,27 +8,6 @@
 
 </div>
 
-<!-- Move to wiki-->
-## file info (moving to wiki)
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/index.html?label=Home%20Page%20Size&labelColor=orange&color=gray)
-
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/Amulet%20Efficiency%20Calculator.html?label=AEC%20Size&labelColor=yellow&color=gray)
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/Base%20Capacity%20Calculator.html?label=BCC%20Size&labelColor=green&color=gray)
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/Critical%20Chance%20calculator.html?label=CCC%20Size&labelColor=gold&color=gray)
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/PercentToMultiplication.html?label=PTM%20Size&labelColor=%238B0000&color=gray)
-
-
-
-
-### CSS
-![GitHub file size in bytes](https://img.shields.io/github/size/Vivaan-d/PreciseTools/yes.css?label=CSS%20Size&labelColor=blue&color=gray)
-
-<!-- Size of all files -->
-### Size of all files(including source code files)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Vivaan-d/PreciseTools?logo=files&logoColor=white&label=Repo%20size)
-<!-- End of wiki page -->
-
-
 # How To use Precise Tools
 - Open The [PreciseTools website](https://precisetools.netlify.app)
 - Select which tool you want to use that will be useful for you
