@@ -153,6 +153,16 @@ if ("serviceWorker" in navigator) {
         // Check if the system prefers dark mode
         const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+        // Set initial mode based on system preference or localStorage
+        const savedMode = localStorage.getItem('mode');
+        if (savedMode) {
+            setManualMode(savedMode);
+        } else if (prefersDarkMode) {
+            setManualMode('dark');
+        } else {
+            setManualMode('light');
+        }
+        
         // Set initial mode based on system preference
         if (prefersDarkMode) {
             document.body.classList.add('dark-mode');
