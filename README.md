@@ -13,7 +13,7 @@
 
 <img src="https://tahj-s.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%201.png" width="1000">
 
-- All Tools are located on the Navigation Bar. If the navigation bar has not fully loaded, refresh the page. On websites by Tahjae, the navigation bar will NOT work.
+- All Tools are located on the Navigation Bar. If the navigation bar has not fully loaded, refresh the page or check your connection.
 
 <div align="center">
   
