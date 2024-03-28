@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precise Tools</title>
     <link rel="stylesheet" href="yes.css">
@@ -120,7 +121,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
   installButton.removeAttribute("hidden");
 });
 
-// main.js
+// PWA install button
 installButton.addEventListener("click", async () => {
   if (!installPrompt) {
     return;
@@ -134,12 +135,14 @@ function disableInAppInstallPrompt() {
   installPrompt = null;
   installButton.setAttribute("hidden", "");
 }
-
+// service worker
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js")
     .then(registration => console.log("Service Worker registered"))
     .catch(error => console.error("Service Worker registration failed", error));
 }
+// light mode / dark mode (comming soon)
+
 
   </script> 
 </body>

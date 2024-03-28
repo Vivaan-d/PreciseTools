@@ -15,6 +15,15 @@
     line-height: 1.5;
     color: #333;
   }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .light-mode {
+    background-color: white;
+    color: #333;
+  }
   
   /* Add some spacing and alignment */
   .container {
