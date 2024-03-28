@@ -97,6 +97,12 @@
         <textarea id="message" name="message" placeholder="Enter your message"></textarea>
         <input type="submit" value="Send">
       </form>
+
+    <h1>Dark mode settings</h1>
+    <h3 id="DarkModetext">Dark Mode is Off</h3>
+    <button onclick="darkMode()">Dark Mode</button>
+    <button onclick="lightMode()">Light Mode</button>
+
       <!--
       <h2>Buttons</h2>
       <p>Here are some examples of buttons:</p>
@@ -141,7 +147,19 @@ if ("serviceWorker" in navigator) {
     .then(registration => console.log("Service Worker registered"))
     .catch(error => console.error("Service Worker registration failed", error));
 }
-// light mode / dark mode (comming soon)
+// light mode / dark mode
+function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
 
 
   </script> 
