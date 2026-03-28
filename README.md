@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://tahj-s.github.io/Precise-Tools-Pack/Precise%20Tools%20logo%20Transparent.png" width="200">
+<img src="https://ultraindv.github.io/Precise-Tools-Pack/Precise%20Tools%20logo%20Transparent.png" width="200">
 
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/Vivaan-d/PreciseTools?logo=github)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/Vivaan-d/PreciseTools?style=flat&logo=github&color=%23222d5a)
