@@ -11,13 +11,13 @@
 - Open The [PreciseTools website](https://precisetools.netlify.app)
 - Select which tool you want to use that will be useful for you
 
-<img src="https://tahj-s.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%201.png" width="1000">
+<img src="https://ultraindv.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%201.png" width="1000">
 
 - All Tools are located on the Navigation Bar. If the navigation bar has not fully loaded, refresh the page or check your connection.
 
 <div align="center">
   
-# The Precise Tools App (made by Tahjae) 📱
+# The Precise Tools App 📱
 
 [![PWA Shields](https://www.pwa-shields.com/1.0.0/series/classic/white/purple.svg)](https://precisetools.netlify.app/)
 [![PWA Shields](https://www.pwa-shields.com/1.0.0/series/install/purple.svg)](https://precisetools.netlify.app/)
@@ -28,14 +28,14 @@
 - You can get the app by going to the [PreciseTools website](https://precisetools.netlify.app) and installing the app using the Install button located at the top of the navbar.
 
 
-<img src="https://tahj-s.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%202.png">
+<img src="https://ultraindv.github.io/Precise-Tools-Pack/MD-pack/MD-Pack%202.png">
 
 # Credits 📖
-Made by VivaanMC, Edited by Tahj-S/Tahjae
+Made by VivaanMC, Edited by UltrainDV
 
 # Contact us 📞
 - You can contact Vivaan at: @vivaanmc on Discord and @Vivaanplay1231 on Roblox.
-- For ways to contact Tahj-S, See his README [here](https://github.com/Tahj-S/Tahj-S)
+- For ways to contact UltrainDV, See his README [here](https://github.com/UltrainDV/UltrainDV)
 
 <!--Stars-->
 <!--
